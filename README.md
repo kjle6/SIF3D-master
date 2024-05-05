@@ -104,7 +104,6 @@ If you find this repo useful for your research, please consider citing:
   author={Zhenyu Lou, Qiongjie Cui, Haofan Wang, Xu Tang, Hong Zhou},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2024},
-  organization={Springer}
 }
 
 @article{zheng2022gimo,
