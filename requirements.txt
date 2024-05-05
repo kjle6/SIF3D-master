@@ -1,0 +1,11 @@
+einops
+human-body-prior
+numpy
+pandas
+pytorch3d
+scipy
+smplx
+torch
+torchvision
+tqdm
+trimesh
