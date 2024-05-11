@@ -99,11 +99,11 @@ The **loss_trans**, **loss_des_trans**, **mpjpe** and **des_mpjpe** correspondin
 ## Citation
 If you find this repo useful for your research, please consider citing:
 ```
-@inproceedings{zheng2022gimo,
-  title={Multimodal Sense-Informed Forecasting of 3D Human Motions},
-  author={Zhenyu Lou, Qiongjie Cui, Haofan Wang, Xu Tang, Hong Zhou},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2024},
+@article{lou2024multimodal,
+  title={Multimodal Sense-Informed Prediction of 3D Human Motions},
+  author={Lou, Zhenyu and Cui, Qiongjie and Wang, Haofan and Tang, Xu and Zhou, Hong},
+  journal={arXiv preprint arXiv:2405.02911},
+  year={2024}
 }
 
 @article{zheng2022gimo,
