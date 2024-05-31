@@ -37,14 +37,14 @@ After downloading and unzipping, you will get a folder like this:
 ```
 --data_root
      |--bedroom0122
-             |--2022-01-21-194925
-                    |--eye_pc
-                    |--PV
-                    |--smplx_local
-                    |--transform_info.json
-                    ...
-             |--2022-01-21-195107
-             ...
+           |--2022-01-21-194925
+                 |--eye_pc
+                 |--PV
+                 |--smplx_local
+                 |--transform_info.json
+                 ...
+           |--2022-01-21-195107
+           ...
      |--bedroom0123
      |--bedroom0210
      |--classroom0219
@@ -54,21 +54,21 @@ After downloading and unzipping, you will get a folder like this:
 Our code will automatically complete the pre-process procedure during first run. Make sure to change the **dataroot** before running. After first run, the processed data would be in the same place of the raw dataset, and you will find your dataset folder like this:
 ```
 --data_root
-	 |--SLICES_8s
-	       |--train
-                     |--gazes.pth
-                     |--joints_input.pth
-                     |--joints_label.pth
-                     |--poses_input.pth
-                     |--poses_label.pth
-                     |--scene_points_<sample_points>.pth
-	       |--test
-                     |--gazes.pth
-                     |--joints_input.pth
-                     |--joints_label.pth
-                     |--poses_input.pth
-                     |--poses_label.pth
-                     |--scene_points_<sample_points>.pth
+      |--SLICES_8s
+            |--train
+                 |--gazes.pth
+                 |--joints_input.pth
+                 |--joints_label.pth
+                 |--poses_input.pth
+                 |--poses_label.pth
+                 |--scene_points_<sample_points>.pth
+            |--test
+                 |--gazes.pth
+                 |--joints_input.pth
+                 |--joints_label.pth
+                 |--poses_input.pth
+                 |--poses_label.pth
+                 |--scene_points_<sample_points>.pth
      |--bedroom0122
      |--bedroom0123
      |--bedroom0210
@@ -99,18 +99,10 @@ The **loss_trans**, **loss_des_trans**, **mpjpe** and **des_mpjpe** correspondin
 ## Citation
 If you find this repo useful for your research, please consider citing:
 ```
-@article{lou2024multimodal,
+@inproceedings{lou2024multimodal,
   title={Multimodal Sense-Informed Prediction of 3D Human Motions},
   author={Lou, Zhenyu and Cui, Qiongjie and Wang, Haofan and Tang, Xu and Zhou, Hong},
-  journal={arXiv preprint arXiv:2405.02911},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024}
 }
-
-@article{zheng2022gimo,
-  title={GIMO: Gaze-Informed Human Motion Prediction in Context},
-  author={Zheng, Yang and Yang, Yanchao and Mo, Kaichun and Li, Jiaman and Yu, Tao and Liu, Yebin and Liu, Karen and Guibas, Leonidas J},
-  journal={arXiv preprint arXiv:2204.09443},
-  year={2022}
-}
-
 ```
